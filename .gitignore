@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (CRITICAL - keeps your DB password safe)
+.env
+
+# Temporary uploads folder (if Multer saves files locally)
+uploads/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
